@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maheshwar Nag - A software Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Contact me.css">  
+</head>
+<body>
+    <div class="container">
+    <div class="sidebar">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="My Intro.html">My Intro</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="Resume.html">Resume</a></li>
+                <li><a href="Contact me.html">Contact me</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main">
+            <span><h1>Contact me for any query</h1></span>
+              <!-- creating a form -->
+              <form action="#">
+              <fieldset>    
+                <legend>
+                   <div class="pg">Personal Details</div> 
+               </legend>
+                <!-- label and input field -->
+               
+                <p>
+                    <label >First name:
+                        <input name="firstName"/>
+                    </label>
+                </p>
+                <p>
+                    <label >Last name:
+                        <input name="lastname"/>
+                    </label>
+                </p>
+                <!-- label and radio field -->
+                <p>Gender:
+                    <label><input type="radio" name="gender" value ="male"/>male</label>
+                    <label><input type="radio" name="gender" value ="female"/>female</label>
+                </p>
+                <p>
+                    <label>Email:<input type="email" name="email"/></label>
+                </p>
+                <p>
+                    <label>Date of birth:<input type="date"name="birthdate"/></label>
+                </p>
+                <!-- label and textarea field -->
+                <p>
+                    <label>Query:<br/><textarea name="address" cols="30"rows="3"></textarea>
+                    </label>
+                </p>
+                <p> 
+                    <button type="submit" id="me">Submit</button>
+                </p>
+    </div>
+</div>
+</body>
+</html>

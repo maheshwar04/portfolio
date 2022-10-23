@@ -1,0 +1,48 @@
+
+h1{
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    text-align: center;
+    text-decoration:underline;
+}
+p{
+    padding-top: 10px;
+}
+.pg{
+    font-size: x-large;
+    color: white;
+    text-decoration:underline;
+    background-color: rgb(40, 4, 169);
+}
+.blue{
+    background-color: black;
+    color:white;
+    text-decoration: underline;
+    font-size:x-large;
+}
+button{
+    color: blue;
+    background-color: white;
+}
+fieldset{
+    background-size: cover;
+    padding: 20px;
+    padding-left: 110px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: antiquewhite;
+
+}
+form{
+    color:red;
+    padding: 50px;
+}
+#me{
+    color:white;
+    background-color: black;
+    
+}
+#me:hover{
+    background-color: aqua;
+}

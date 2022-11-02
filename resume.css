@@ -1,14 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .container{
     display: flex;
     
 }
 .sidebar nav{
-    padding: 20px;
+    padding:10px;
 }
 .sidebar nav li{
     list-style: none;
-    font-size:30px;
-    padding: 25px 0; 
+    font-size:25px;
+    padding: 10px 0; 
 }
 .sidebar nav li a{
   text-decoration: none;
@@ -19,12 +23,15 @@
    height: auto;
 }
 .main{
-    width: 80%;
+    width: 100%;
     height: auto;
 }  
 .sidebar{
     background-color:wheat;
-    width: 20%;
-    height:auto;  
+    width: 10%;
+    height:50%;  
+}
+.icon{
+ cursor: pointer;
 }
 

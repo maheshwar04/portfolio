@@ -11,7 +11,6 @@
    
 .sidebar{
     background-color:wheat;
-    width:10%;
     height:50%;   
 }
 .pic{
@@ -81,5 +80,17 @@
 .buttons button:hover{
     color: wheat;
     background-color: blue;
+}
+/* For mobile phones: */
+
+@media only screen and (max-width: 500px) {
+.picture{
+    display: none;
+}
+.sidebar{
+    background-color:wheat;
+    width:6rem;
+    height:286px; 
+}
 }
 

@@ -36,4 +36,10 @@
  padding-left:10px ;
  padding-top:10px ;
 }
-
+@media only screen and (max-width: 500px) {
+    .sidebar{
+        background-color:wheat;
+        width:6.5rem;
+        height:286px; 
+    }
+    }

@@ -50,7 +50,7 @@ form{
     fieldset{
         background-size: cover;
         padding: 20px;
-        padding-left: 92px;
+        padding-left: 85px;
         margin-left: -35px;
         margin-right: 100px;
         background-color: antiquewhite;
@@ -58,7 +58,7 @@ form{
     }
     .sidebar{
         background-color:wheat;
-        width:6rem;
+        width:6.5rem;
         height:286px; 
     }
     }
